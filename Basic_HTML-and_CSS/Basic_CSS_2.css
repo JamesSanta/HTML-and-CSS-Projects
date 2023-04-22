@@ -1,0 +1,10 @@
+p {
+	color: darkblue; 
+	background-color: white;
+	font-weight: bold;
+	text-align: center;
+}
+h2 {
+	color: blue;
+	text-shadow: 0 0 3px #FF0000;
+}
