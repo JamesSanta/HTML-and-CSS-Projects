@@ -43,7 +43,7 @@ p {
     padding-right: 20px;
     justify-content: center; /*centering text in photo*/
     align-items: center;
-    background: rgba (0, 0, 0 0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .white-head {
@@ -59,7 +59,7 @@ Photo Overlay Transition
 
 .photo-overlay {
     opacity: 0;
-    transition: opacity .1s;
+    transition: opacity 0.1s;
     border-radius: 10px;
     cursor: pointer;
 }
