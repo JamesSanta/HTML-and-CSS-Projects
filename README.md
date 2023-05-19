@@ -1,8 +1,8 @@
 # HTML-and-CSS-Projects
 This is a display of sample websites that I made using HTML and CSS.
 ## Projects
-[Space Station Site]((https://github.com/JamesSanta/HTML-and-CSS-Projects/blob/main/Basic_HTML-and_CSS/Space%20Station%20Site/Index.html))
-[Movie Theater Site](https://github.com/JamesSanta/HTML-and-CSS-Projects/blob/main/Basic_HTML-and_CSS/Movie%20Theater%20Site/MovieTheaterProject.html)
+- [Space Station Site](https://github.com/JamesSanta/HTML-and-CSS-Projects/blob/main/Basic_HTML-and_CSS/Space%20Station%20Site/Index.html)
+- [Movie Theater Site](https://github.com/JamesSanta/HTML-and-CSS-Projects/blob/main/Basic_HTML-and_CSS/Movie%20Theater%20Site/MovieTheaterProject.html)
 
 
 ### Space Station Site
