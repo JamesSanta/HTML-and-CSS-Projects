@@ -1,0 +1,60 @@
+img.center {
+	display: block;
+  padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: auto;
+	width: 50%;
+  }
+
+  img {
+    filter: grayscale(100%);
+  }
+
+  img 
+  {
+    border: 2px solid red;
+    border-radius: 50px 20px;
+  }
+
+  footer {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: aquamarine;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+  }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar a:hover {
+  background-color: blueviolet!important;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.main {
+  margin-top: 50px;
+}
