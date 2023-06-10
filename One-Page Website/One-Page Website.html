@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>Halo Gamers Unite!</title>
 		<link rel="icon" type="image/x-icon" href="Images/favicon-32x32.png">
 		<link rel="icon" type="image/x-icon"  href="Images/favicon-16x16.png">
 		<link rel="stylesheet" href="./CSS/one_page_website.css">
+		<script src="JS/one_page_website.js" defer></script>
 	</head>
 	<body>
 	<!-- Nav bar -->
@@ -30,6 +31,124 @@
 		</div>
 	</div>
 	<!-- End Home Page -->
+
+		<!-- Modal Section-->
+
+		<div class="row">
+			<div class="column">
+			  <img src="./Images/Thumb/Nail_1.jfif" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			  <img src="./Images/Thumb/Nail_2.jfif" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			  <img src="./Images/Thumb/Nail_3.jfif" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			  <img src="./Images/Thumb/Nail_4.jfif" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			<img src="./Images/Thumb/Nail_5.jfif" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			<img src="./Images/Thumb/Nail_6.jfif" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			<img src="./Images/Thumb/Nail_7.jfif" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			<img src="./Images/Thumb/Nail_8.jfif" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+			</div>
+			<div class="column">
+			<img src="./Images/Thumb/Nail_9.jfif" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+			</div>
+		  </div>
+	
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+		  
+			  <div class="mySlides">
+				<div class="numbertext">1 / 9</div>
+				<img src="./Images/Thumb/Thumb_1.jfif" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">2 /9</div>
+				<img src="./Images/Thumb/Thumb_2.jfif" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">3 / 9</div>
+				<img src="./Images/Thumb/Thumb_3.jfif" style="width:100%">
+			  </div>
+			  
+			  <div class="mySlides">
+				<div class="numbertext">4 / 9</div>
+				<img src="./Images/Thumb/Thumb_4.jfif" style="width:100%">
+			  </div>
+	
+			  <div class="mySlides">
+				<div class="numbertext">5 / 9</div>
+				<img src="./Images/Thumb/Thumb_5.jfif" style="width:100%">
+			  </div>
+	
+			  <div class="mySlides">
+				<div class="numbertext">6 / 9</div>
+				<img src="./Images/Thumb/Thumb_6.jfif" style="width:100%">
+			  </div>
+	
+			  <div class="mySlides">
+				<div class="numbertext">7 / 9</div>
+				<img src="./Images/Thumb/Thumb_7.jfif" style="width:100%">
+			  </div>
+	
+			  <div class="mySlides">
+				<div class="numbertext">8 / 9</div>
+				<img src="./Images/Thumb/Thumb_8.jfif" style="width:100%">
+			  </div>
+	
+			  <div class="mySlides">
+				<div class="numbertext">9 / 9</div>
+				<img src="./Images/Thumb/Thumb_9.jfif" style="width:100%">
+			  </div>
+			  
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		  
+			  <div class="caption-container">
+				<p id="caption"></p>
+			  </div>
+
+			  <div class="column">
+				<img class="test cursor" src="./Images/Thumb/Nail_1.jfif" style="width:100%" onclick="currentSlide(1)" alt="">
+			  </div>
+			  <div class="column">
+				<img class="test cursor" src="./Images/Thumb/Nail_2.jfif" style="width:100%" onclick="currentSlide(2)" alt="">
+			  </div>
+			  <div class="column">
+				<img class="test cursor" src="./Images/Thumb/Nail_3.jfif" style="width:100%" onclick="currentSlide(3)" alt="">
+			  </div>
+			  <div class="column">
+				<img class="test cursor" src="./Images/Thumb/Nail_4.jfif" style="width:100%" onclick="currentSlide(4)" alt="">
+			  </div>
+			  <div class="column">
+				<img class="test cursor" src="./Images/Thumb/Nail_5.jfif" style="width:100%" onclick="currentSlide(5)" alt="">
+			  </div>
+			  <div class="column">
+				<img class="test cursor" src="./Images/Thumb/Nail_6.jfif" style="width:100%" onclick="currentSlide(6)" alt="">
+			  </div>
+			  <div class="column">
+				<img class="test cursor" src="./Images/Thumb/Nail_7.jfif" style="width:100%" onclick="currentSlide(7)" alt="">
+			  </div>
+			  <div class="column">
+				<img class="test cursor" src="./Images/Thumb/Nail_8.jfif" style="width:100%" onclick="currentSlide(8)" alt="">
+			  </div>
+			  <div class="column">
+				<img class="test cursor" src="./Images/Thumb/Nail_9.jfif" style="width:100%" onclick="currentSlide(9)" alt="">
+			  </div>
+			</div>
+		  </div>
 	
 	<!--Gallery Page -->
 	<section>
@@ -124,7 +243,7 @@
 						</div>
 				</div>	
 				<!-- End Photo Container #9 -->
-				
+			
 			</div>
 		</div>
 	</section>
@@ -161,6 +280,8 @@
 		</div>
 	</section>
 	<!-- End RSVP -->
+
+
 	
 	<!-- Footer -->
 	<div>
