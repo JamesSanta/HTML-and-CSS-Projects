@@ -1,7 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-	<title>Pretty Fly</title>
-	<body>Hello World!</body>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function() {	
+			$("#slideshow > div:gt(0)").hide();
+				setInterval(function() { 
+	 			$('#slideshow > div:first')
+				.fadeOut(1000)
+				.next()
+	 			.fadeIn(1000)
+	  			.end()
+	  			.appendTo('#slideshow');
+				}, 2000);
+			});
+				
+		</script>
+		
+		<title>Pretty Fly</title>
+	</head>
+	
+	<body>
+		<h1>Hello World!</h1>
+		<br>
+		 
+		<div id="slideshow">
+			<div>
+			  <img src="./IMG/Img1.png">
+			</div>
+			<div>
+			  <img src="./IMG/Img2.jpg">
+			</div>
+			<div>
+			  Slide show that is in progress...
+			</div>
+		  </div>
+
+	<style>
+		#slideshow { 
+			margin: 50px auto; 
+			position: relative; 
+			width: 320px; 
+			height: 320px; 
+			padding: 10px; 
+			box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+		  }
+		  
+		  #slideshow.div { 
+			position: absolute; 
+			top: 10px; 
+			left: 10px; 
+			right: 10px; 
+			bottom: 10px; 
+		  }
+	</style>
+	</body>
 </html>
 	
 	

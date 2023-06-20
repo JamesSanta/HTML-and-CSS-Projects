@@ -3,12 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Halo Gamers Unite!</title>
+		
 		<link rel="icon" type="image/x-icon" href="Images/favicon-32x32.png">
 		<link rel="icon" type="image/x-icon"  href="Images/favicon-16x16.png">
 		<link rel="stylesheet" href="./CSS/one_page_website.css">
 		<script src="JS/one_page_website.js" defer></script>
+		<h1 style="font-size:8vw;">HALO GAMERS</h1>
 	</head>
 	<body>
+		
+		<script>
+			document.body.classList.add('fade-out');
+		</script>
 	<!-- Nav bar -->
 		<div>
 			<nav>
@@ -262,12 +268,12 @@
 						Leave us your information and we will get you in a game.
 					</p>
 					<div>
-						<form action="" method="post">
-							<input class="rsvp" type="text" value="First Name">
-							<input class="rsvp" type="text" value="Last Name">
-							<input class="rsvp" type="text" value="Email Address">
-							<input class="rsvp" type="text" value="Phone Number">
-							<input class="rsvp" type="text" value="Favorite Halo Game">
+						<form name="RSVP" form action="" onsubmit="return validateForm()" method="post">
+							<input class="rsvp" type="text" name="fName" required value="First Name">
+							<input class="rsvp" type="text" name="lname" required value="Last Name">
+							<input class="rsvp" type="text" name="Email" required value="Email Address">
+							<input class="rsvp" type="text" name="pNumber" required value="Phone Number">
+							<input class="rsvp" type="text" name="Game" required value="Favorite Halo Game">
 							<div class="form-spacer">
 							<div>
 							<div>
@@ -289,7 +295,11 @@
 	</div>
 	<!-- End Footer -->
 	
-
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+	document.body.classList.remove('fade-out');
+});
+</script>
 
 	</body>
 </html>	

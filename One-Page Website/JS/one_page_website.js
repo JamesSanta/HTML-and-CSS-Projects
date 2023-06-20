@@ -35,3 +35,11 @@ function showSlides(n) { // Displays slides and captions
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+// function validateForm() {
+  //let x = document.forms["RSVP"]["fName"].value;
+ // if (x == "") {
+   // alert("First name must be filled out");
+   // return false;
+  //}
+  //}
